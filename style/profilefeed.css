@@ -1,0 +1,176 @@
+.right-side-feed{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: end;
+    position: absolute;
+    top: 15px;
+    right: 130px;
+    border: 1px solid transparent;
+    width: 300px;
+    height: 550px;
+    
+}
+.profile-feed{
+    /* flex:1; */
+    width: 100%;
+    margin-left: 720px; 
+    margin-top: -70px; 
+    margin-bottom: 20px;
+    
+    
+    
+}
+.profile-pic{
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+}
+.profile-pic a img{
+    width: 43px; 
+    height: 43px;
+    margin-right: 13px;
+}
+.profile-name{
+    line-height: 0.3rem;
+    display: flex;
+    flex-direction: column;
+    font-size: 0.87rem;
+    
+}
+.profile-name span, p{
+    align-self: middle;
+    position: relative;
+    top: 5px;
+}
+.profile-name span{
+    font-weight: bold;
+    cursor: pointer;
+}
+.profile-name p{
+    color: grey;
+}
+.profile-main{
+    font-size: 0.75rem;
+}
+.profile-main a{
+    text-decoration: none;
+    position: relative;
+    right: -130px;
+    color: #0095F6;
+    transition: color 0.1s;
+}
+.profile-main a:hover{
+    color: aliceblue;
+}
+/* .profile-feed:nth-of-type(2) .profile-main a{
+    right: -66px;
+} */
+.extra-div{
+    /* z-index: 0; */
+    border: 1px solid transparent;
+    width: 300px;
+}
+
+.profile-suggest{
+    display: flex;
+    margin-bottom: 90px;
+    gap: 7.3rem;
+    position: relative;
+    right: -10px;
+    
+}
+.profile-suggest span{
+    font-size: 0.9rem;
+    color: grey;
+    font-weight: 450;
+
+}
+.profile-suggest .profile-all a{
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: aliceblue;
+    transition: color 0.1s;
+    position: relative;
+    left: 7.5px;
+}
+.profile-all a:hover{
+    color: grey;
+}
+.unknown-profile{
+    flex-grow: 1; 
+     width: 290px;
+     margin-left: 10px;
+     margin-top: -75px;
+    /* position: relative; */
+
+}
+.unknown-feed{
+    display: flex;
+    
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 11.5px;
+    padding:0;
+
+}
+.unknown-pic{
+    display: flex;
+    align-items: center;
+    
+}
+.unknown-pic a img{
+    width: 43px; 
+    height: 43px;
+    margin-right: 13px;
+}
+.unknown-name{
+    display: flex;
+    flex-direction: column;
+    font-size: 0.87rem;
+    line-height: 0.2rem; 
+    margin-right: 10px;
+    justify-content: center;
+    flex: 1;
+    
+}
+.unknown-name span, .unknown-name p{
+    align-self: middle;
+    position: relative;
+    top: 5px; 
+}
+.unknown-name span{
+    font-weight: bold;
+    cursor: pointer;
+}
+.unknown-name p{
+    color: grey;
+    letter-spacing: -0.5px;
+}
+.unknown-main{
+    font-size: 0.75rem;
+    display: flex;
+    align-items: center;
+    
+}
+.unknown-main a{
+
+    text-decoration: none;
+    color: #0095F6;
+    position: relative;
+    left: -10px;
+    transition: color 0.1s;
+}
+.unknown-main a:hover{
+    color: aliceblue;
+}
+.fa-certificate{
+    font-size: 0.78rem;
+    margin-left: 0.1rem;
+}
+.fa-check{
+    font-size: 0.44rem;
+    position: relative;
+    left: -12.5px;
+    bottom: 1.7px;
+}

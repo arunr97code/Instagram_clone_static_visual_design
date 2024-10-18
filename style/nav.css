@@ -1,0 +1,136 @@
+.container{
+    display: flex;
+    position: relative;
+    width: 100%;
+    overflow-x: hidden;
+    
+}
+
+.outerline{
+    width: 230px;
+    height: 100%;
+    position: fixed;
+    padding: 6px;
+    border: none;
+    border-right: 1px solid rgba(172, 172, 172, 0.2);
+    /* flex: 0 0  230px; */
+   
+}
+.leftside-bar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+    position: fixed;
+
+}
+.logo{
+    margin: 25px 5px 0px 20px;
+    cursor: pointer;
+    width: 180px;
+}
+.logo div{
+    display: flex;
+    
+}
+.logo .fa-instagram{
+    display: none;
+}
+.mid-nav{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    position: relative;
+    top: 30px;
+    margin-left: 10px;
+    
+}
+.outer-bottom{
+    margin-left: 10px;
+}
+.bottom-icon{
+    position: relative;
+    bottom: -230px;
+}
+
+.mid-icon, .bottom-icon{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 8px;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 183px;
+    padding: 10px 20px 10px 10px;
+    cursor: pointer;
+    transition: background-color 0.35s ease;
+    
+}
+.mid-icon:hover, .bottom-icon:hover{
+    background-color: rgba(172, 172, 172, 0.15);
+    border-radius: 8px;
+
+}
+
+
+.icon .fa-solid, .fa-regular, .fa-brands{
+    font-size: 1.5rem;
+    
+
+}
+.icon{
+    margin-right: 15px;
+    position: relative;
+    display: flex;
+
+}
+.icon .tooltip{
+    position: absolute;
+    bottom: -23px;
+    left: 22px;
+    font-size: 0.75rem;
+    font-weight: 300;
+    color: aliceblue;
+    border: 1px solid aliceblue;
+    background-color: rgb(71, 71, 71);
+    padding: 3px 8px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.8s;
+}
+.icon:hover .tooltip{
+    opacity: 1;
+}
+.icon-word{
+    display: flex;
+    align-items: center;
+    position: relative;    
+}
+.icon-word .fa-solid{
+    position: absolute;
+    right: -95px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.bottom-icon:hover .icon-word .fa-solid{
+    opacity: 1;
+}
+@media screen and (max-width:900px){
+    .outerline{
+        width: 60px;
+    }
+    .logo svg{
+        display: none;
+    }
+    .logo .fa-instagram{
+        display: block;
+    }
+    .mid-icon .icon-word{
+        display: none;
+    }
+    .outer-bottom .icon-word{
+        display: none;
+    }
+   
+}
+

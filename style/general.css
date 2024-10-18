@@ -1,0 +1,15 @@
+html{
+    scroll-behavior: smooth ;
+}
+*{
+    
+}
+body{
+    background-color: black;
+    color: aliceblue;
+    height: 100vw;
+    margin: 0;
+    box-sizing: border-box;
+
+    font-family: Roboto, arial , sans-serif;
+}

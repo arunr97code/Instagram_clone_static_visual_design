@@ -1,0 +1,229 @@
+.post-feed{
+    width: 460px;
+    /* height: calc(100vh - 100%); */
+    /* border: 1px solid transparent; */
+    margin-top: 5px;
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    color: grey;
+    z-index: 3;
+}
+.post-container{
+    
+    border-bottom: 1px solid rgba(172, 172, 172, 0.2);
+    padding-bottom: 8px;
+    margin: 10px 0 10px 0;
+    
+} 
+/* .post-feed article{
+    border: 1px solid;
+    
+    
+} */
+.sec-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 9px;
+}
+.sec-1 a{
+    width: 40px;
+    height: 40px;
+    border: 0px solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(230deg, 
+    rgb(128, 9, 9) 0%,
+    pink 25%,rgb(210, 50, 50) 55%,
+    yellow 75%),
+    rgb(128, 9, 9) 100%;
+    box-sizing: border-box;
+    margin-right: 8px;
+    
+    
+}
+.post-feed article:nth-of-type(1) a{
+    border: none;
+    background: none;
+    width: auto;
+    height: auto;
+}
+.post-container:nth-of-type(2) section.sec-4 .span-1 strong{
+    position: relative;
+    left: -25px;
+} 
+
+.sec-1 img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%; 
+    border: 1px solid white ;
+    cursor: pointer;
+    
+    
+}
+.sec-1 span:nth-of-type(1){
+    font-size: 0.9rem;
+    
+    /* display: flex;
+    align-content: middle; */
+     color: aliceblue;  
+
+}
+.sec-1 strong{
+    cursor: pointer;
+}
+.sec-1 span:nth-of-type(2){
+    font-size: 0.9rem;
+    margin-left: -4px;
+    cursor: pointer;
+}
+.sec-1 span:nth-of-type(3){
+    margin-left: 48px;
+}
+
+.sec-1 .fa-ellipsis{
+    position: relative;
+    right: -213px;
+    cursor: pointer;
+    
+     
+}
+.sec-1 .zoho-left{
+    padding-left: 10px;
+}
+/*  */
+.sec-2 img{
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgba(172, 172, 172, 0.2);
+    margin-bottom: 7.5px;
+}
+.user-round{
+    width: 24px;    
+    height: 24px;
+    /* border: 1px solid; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.65rem;
+    position: relative;
+    bottom: 40px;
+    left: 5px;
+    background-color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    
+}
+/*  */
+.sec-3{
+    display: flex;
+    gap: 13px;
+    margin-left: 2.5px;
+    margin-bottom: 5px;
+
+}
+.sec-3 .fa-solid{
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: #ed4956;
+    transition: color 0.1s;
+}
+.sec-3 .fa-regular{
+    font-size: 1.3rem;
+    cursor: pointer;
+    color: white;
+    transition: color 0.1s;
+}
+.sec-3 div{
+    display: flex;
+    margin-left: auto;
+    margin-right: 2.5px;
+}
+.sec-3 .fa-regular:hover{
+    color: grey;
+}
+.extra-margin{
+    margin-top: -25px;
+}
+/*  */
+.sec-4{
+    display: flex;
+    flex-direction: column;
+    
+}
+.sec-4 .span-1{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px;
+    line-height: 1.9rem;
+}
+.sec-4 .span-1 img:nth-of-type(1){
+    position: relative;
+}
+.sec-4 .span-1 img:nth-of-type(2){
+    position: relative;
+    left: -13px;
+}
+.sec-4 .span-1 img:nth-of-type(3){
+    position: relative;
+    left: -25px;
+}
+
+/* .sec-4 .span-1 strong{
+    position: relative;
+    left: -25px;
+} */
+.sec-4 img{
+    width: 15px;
+    height: 15px;
+    border-radius: 7.5px;
+    cursor: pointer;
+}
+.sec-4 span:nth-of-type(1){
+    color: aliceblue;
+    font-size: 0.85rem;
+}
+/*  */
+.sec-4 .span-2{
+    font-size: 0.87rem;
+    color: aliceblue;
+    margin-bottom: 10px;
+}
+.sec-4 .span-2 a{
+    text-decoration: none;
+    color: #0095F6;
+}
+.sec-4 strong{
+    cursor: pointer;
+}
+.sec-4 .span-2 .last-word{
+    color: grey;
+    cursor: pointer;
+    
+}
+/*  */
+.sec-4 .span-3{
+    cursor: pointer;
+}
+.sec-4 .span-3, .span-4{
+    font-size: 0.88rem;
+    line-height: 1.6rem;
+}
+.sec-4 .span-4 .fa-regular{
+    font-size: 0.8rem;
+    color: grey;
+    position: relative;
+    right: -330px;
+    cursor: pointer;
+    transition: color 0.1s;
+
+}
+.sec-4 .span-4 .fa-regular:hover{
+    color: dimgray;
+}
+/*  */
